@@ -1,0 +1,195 @@
+@font-face {
+    font-family: idroid;
+    src: url('idroid.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(8, 185, 8), rgb(8, 58, 8));
+}
+#titulo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: light;
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    
+}
+
+#titulo3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px black;
+    padding: 5px;
+    text-align: center;
+    width: 400px;
+    margin: auto;  
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-item{
+    padding: 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white ;
+}
+
+.nav-item:hover{
+    display: block;
+    background-color: rgba(53, 99, 42, 0.836) ;
+    box-shadow: 1px 1px 2px rgba(20, 68, 20, 0.212);
+    border-radius: 3px;
+    transition: 0.5s;
+    
+}
+
+body{
+    background-color: aquamarine;
+}
+
+main{
+    margin: auto;
+    width: 900px;
+    background-color: white;
+    box-shadow: 0px 2px 8px 0px black;
+}
+
+#titulo-1f{
+    font-family: idroid;
+    padding:10px 0px 10px 20px;
+    color: green;
+}
+
+.paragrafo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.h2{
+    font-family: idroid;
+    margin: 20px;
+    padding: 5px;
+    color: green;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.5), white);
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    color: green;
+}
+
+
+.link:hover{
+    text-decoration:underline;
+}
+
+
+.link::after{
+    content:'🔗';
+}
+
+.img1{
+    margin: 20px 0px 0px 40px;
+}
+
+.img2{
+    margin: 10px 0px 0px 50px;
+}
+
+.img3{
+    margin: 10px 0px 0px 300px;
+}
+
+#video{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:50px;
+    margin-bottom: 20px;
+    background-color: darkgreen;
+}
+
+#h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #56b83edb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+
+}
+.final{
+    margin: auto;
+    width: 820px;
+    border-radius: 10px;    
+    background-color: rgba(0, 128, 0, 0.13);
+}
+
+.listass{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding:20px;
+    margin: 20px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+.ultimop{
+    
+    border: 0px solid rgb(0, 0, 0);
+    list-style:none;
+    width: 170px;
+    height: 130px;
+}
+
+
+.ultimopa2{
+
+    border: 0px solid rgb(0, 0, 0);
+    list-style:none;
+    width: 170px;
+    height: 130px;
+
+}
+.correto{
+    text-decoration: underline;
+}
+
+
+.correto::before{
+    content:'✓  ';
+    
+}
+
+.pe{
+    background-color: green;
+    margin-top: 20px; 
+}
+
+.pe1{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
